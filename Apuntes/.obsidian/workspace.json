@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "8d29cc3a1dabc005",
+    "type": "split",
+    "children": [
+      {
+        "id": "4510d1cdc931c916",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efe7e58b271d14b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Herramientas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e29fcd9b2545daf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Forense/Volatility.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "187610e152e36f90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Forense/binwalk.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dbd636c74975a9fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "092255734d23c7ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0211698eeb69577",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "241617aedb99330c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#forense",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fb9689075924ed7d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 318.5
+  },
+  "right": {
+    "id": "d20b6e6a08132762",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf01d1e9333d1bee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4337ae0fa38c6f92",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Forense/Volatility.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8a3cd742346a9ed6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Forense/Volatility.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "89e2c555978f41cd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5470951f22615fb1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Forense/Volatility.md"
+              }
+            }
+          },
+          {
+            "id": "69698ddbd3a0f5c1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "e29fcd9b2545daf8",
+  "lastOpenFiles": [
+    "Forense/Forense.md",
+    "Forense/Volatility.md",
+    "Forense/Autopsy.md",
+    "mosgin.md",
+    "jaime maricon.md",
+    "Herramientas.md",
+    "Hacking/Máquinas (BORRAR)/CozyHosting/CozyHosting.md",
+    "ESQUEMA.md",
+    "google.com.md",
+    "Sin título",
+    "Índice.md",
+    "Hacking/Enumeración y explotación/Explotación/Explotación.md",
+    "Forense/john.md",
+    "Forense/stegsolve.md",
+    "Forense/TestDisk.md",
+    "Forense/Wireshark.md",
+    "Forense/zsteg.md",
+    "Forense/binwalk.md",
+    "Forense/capinfos.md",
+    "Phishing.md",
+    "Forense/extundelete.md",
+    "Linux/Búsqueda a nivel del sistema.md",
+    "Docker.md",
+    "Tareas ✅.md",
+    "Hacking/Vulnerabilidades web/Abuso de subidas de archivos/ExifTool.md",
+    "Hacking/Vulnerabilidades web/WebDAV/Davtest.md",
+    "Forense",
+    "Hacking/Vulnerabilidades web/WebDAV/WebDAV.md",
+    "Hacking/Vulnerabilidades web/WebDAV/Pasted image 20231024202553.png",
+    "Hacking/Vulnerabilidades web/Abuso de subidas de archivos/Pasted image 20231008214641.png",
+    "Hacking/Vulnerabilidades web/Ataques de transferencia de zona (AXFR – Full Zone Transfer)/Pasted image 20231010163608.png",
+    "Pasted image 20231010163551.png",
+    "Hacking/Vulnerabilidades web/Prototype Pollution/Pasted image 20231009195728.png",
+    "Hacking/Vulnerabilidades web/Abuso de APIs/Pasted image 20231008174112.png",
+    "Hacking/Vulnerabilidades web/Abuso de APIs/Pasted image 20231008174533.png",
+    "Hacking/Vulnerabilidades web/Abuso de APIs/Pasted image 20231008174735.png",
+    "Hacking/Vulnerabilidades web/Abuso de APIs/Ejemplo para obtener peticiones a la api.png",
+    "Pasted image 20231008174018.png",
+    "Hacking/Máquinas (BORRAR)/CozyHosting",
+    "Hacking/Máquinas (BORRAR)",
+    "Hacking/Buffer Overflow",
+    "Hacking/Escalada de privilegios",
+    "Hacking/Vulnerabilidades web/GraphQL Introspection, Mutations e IDORs",
+    "Hacking/Vulnerabilidades web/Ataque de Deserialización Pickle (DES-Pickle)",
+    "Hacking/Vulnerabilidades web/Ataque de Deserialización Yaml (DES-Yaml)",
+    "Hacking/Vulnerabilidades web/CSSI (CSS inyection)",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}

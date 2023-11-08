@@ -1,0 +1,3 @@
+En esta clase aprenderás a usar **LaTeX**, un lenguaje de marcado utilizado para crear documentos científicos y técnicos de alta calidad. A través de ejemplos y ejercicios prácticos, descubrirás cómo utilizar LaTeX para crear documentos bien estructurados, con una apariencia profesional y una alta precisión tipográfica.
+
+Aprenderás a utilizar diversas herramientas y comandos de LaTeX para formatear el texto, insertar figuras y crear tablas. Además, también aprenderás a utilizar paquetes adicionales que te permitirán personalizar aún más tus documentos.
