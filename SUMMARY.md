@@ -8,16 +8,16 @@
 ## 💻 Linux
 
 * [Introdución a linux](linux/introducion-a-linux.md)
-* [Explicación de nose](linux/explicacion-de-nose.md)
-* [Linux](linux/linux/README.md)
-  * [Búsqueda a nivel del sistema](linux/linux/busqueda-a-nivel-del-sistema.md)
-  * [Control de flujo](linux/linux/control-de-flujo.md)
+* [Estructura de directorios](linux/estructura-de-directorios.md)
+* [Uso de terminal](linux/uso-de-terminal.md)
+* [Control de flujo](linux/control-de-flujo.md)
+* [Búsqueda a nivel del sistema](linux/busqueda-a-nivel-del-sistema.md)
 * [Docker](linux/docker.md)
 
 ## 🔗 Redes
 
 * [Introducción a redes](redes/introduccion-a-redes.md)
-* [Modelo OSI ](redes/modelo-osi.md)
+* [Modelo OSI](redes/modelo-osi.md)
 * [Protocolos de Red](redes/protocolos-de-red.md)
 * [Direccionamiento IP](redes/direccionamiento-ip.md)
 
@@ -41,7 +41,6 @@
       * [Bind shell](hacking-web/enumeracion-y-explotacion/explotacion/shell/bind-shell.md)
       * [Forward shell](hacking-web/enumeracion-y-explotacion/explotacion/shell/forward-shell.md)
       * [Reverse shell](hacking-web/enumeracion-y-explotacion/explotacion/shell/reverse-shell.md)
-      * [Shell](hacking-web/enumeracion-y-explotacion/explotacion/shell/shell.md)
 * [Gestores de contenido](hacking-web/gestores-de-contenido/README.md)
   * [WordPress](hacking-web/gestores-de-contenido/wordpress/README.md)
     * [WordPress](hacking-web/gestores-de-contenido/wordpress/wordpress.md)
@@ -175,5 +174,3 @@
   * [extundelete](herramientas/forense/extundelete.md)
   * [stegsolve](herramientas/forense/stegsolve.md)
   * [zsteg](herramientas/forense/zsteg.md)
-
-[GitHub](https://github.com/M3RINOOOOO)

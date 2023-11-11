@@ -1,6 +1,6 @@
 # Búsqueda a nivel del sistema
 
-En este apartado veremos diferentes maneras de utilizar el comando find para hacer buscar en un sistema (por eso utilizamos continuamente **/** en los ejemplos, si quisiéramos buscar en un directorio en específico habría que poner el mismo) por diferentes criterios,. Recordemos que todo lo que nos muestre como **stderr** no lo queremos mostrar por pantalla
+En este apartado veremos diferentes maneras de utilizar el comando find para hacer buscar en un sistema (por eso utilizamos continuamente **/** en los ejemplos, si quisiéramos buscar en un directorio en específico habría que poner el mismo) por diferentes criterios. Recordemos que todo lo que nos muestre como **stderr** no lo queremos mostrar por pantalla
 
 Para filtrar por el nombre del archivo/directorio buscado:
 
