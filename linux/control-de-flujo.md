@@ -43,3 +43,9 @@ Si queremos poner en segundo plano alguna tarea que queramos lanzar y además qu
 ```bash
 accion & disown
 ```
+
+El operador `|` (**pipe**) se utiliza para redirigir la salida estándar de un comando a la entrada estándar de otro comando. Esto permite encadenar múltiples comandos de manera que el resultado de uno se convierta en la entrada del siguiente.
+
+```
+comando1 | comando2      #`comando1` genera una salida que se convierte en la entrada de `comando2`
+```

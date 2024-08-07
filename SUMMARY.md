@@ -9,9 +9,11 @@
 
 * [Introdución a linux](linux/introducion-a-linux.md)
 * [Estructura de directorios](linux/estructura-de-directorios.md)
-* [Uso de terminal](linux/uso-de-terminal.md)
 * [Control de flujo](linux/control-de-flujo.md)
+* [Descriptores de archivo](linux/descriptores-de-archivo.md)
+* [Uso de terminal](linux/uso-de-terminal.md)
 * [Búsqueda a nivel del sistema](linux/busqueda-a-nivel-del-sistema.md)
+* [Cron](linux/cron.md)
 * [Docker](linux/docker.md)
 
 ## 🔗 Redes
@@ -157,11 +159,11 @@
     * [XXE (XML External Entity Injection)](hacking-web/vulnerabilidades-web/xxe-xml-external-entity-injection/xxe-xml-external-entity-injection.md)
     * [xxe\_oob.sh](hacking-web/vulnerabilidades-web/xxe-xml-external-entity-injection/xxe\_oob.sh.md)
 
-## 🕵♂ Forense
+## 🕵️‍♂️ Forense
 
 * [Análisis de distintos tipos de archivos](Apuntes/Forense/Forense.md)
 
-## 🛠 Herramientas
+## 🛠️ Herramientas
 
 * [Forense](herramientas/forense/README.md)
   * [john](herramientas/forense/john.md)
