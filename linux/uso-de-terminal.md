@@ -10,6 +10,10 @@ Por ejemplo, si estamos en el directorio `/home/usuario` y suponemos el caso en 
 
 ## Comandos básicos
 
+Muchos comandos por sí solos no realizan ninguna tarea o simplemente dan error, ya que necesitan más información, que llamaremos **argumentos**. Son como unas especificaciones que se proporcina al comando para que realice la tarea exactamente como se desea. Por ejemplo, hay un comando para copiar archivos, que si no le dices qué quieres copiar y donde lo quieres copiar dará error porque falta información.
+
+El directorio actual de trabajo se puede llamar desde consola con `.` y el directorio padre (el directorio que lo contiene) con `..` .
+
 A continuación se detalllan comandos esenciales para el uso y el entendimiento de la terminal.
 
 ### Comandos de navegación y manejo de archivos
