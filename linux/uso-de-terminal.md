@@ -23,8 +23,8 @@ A continuación se detalllan comandos esenciales para el uso y el entendimiento 
 Copia archivos o directorios.
 
 ```bash
-cp archivo destino      #Copiará archivo en la ruta destino
-cp notas /home          #Copiará el archivo notas en la ruta /home
+cp archivo destino      # Copiará archivo en la ruta destino
+cp notas /home          # Copiará el archivo notas en la ruta /home
 ```
 
 #### mv
@@ -32,9 +32,9 @@ cp notas /home          #Copiará el archivo notas en la ruta /home
 Mueve archivos o directorios de directorio o cambia el nombre del archivo o directorio.
 
 ```bash
-mv archivo destino       #Moverá el archivo a la ruta destino
-mv notas /home           #Moverá el archivo notas a la ruta /home
-mv notas notas_modified    #Cambiará el nombre del archivo notas a notas_modified
+mv archivo destino         # Moverá el archivo a la ruta destino
+mv notas /home             # Moverá el archivo notas a la ruta /home
+mv notas notas_modified    # Cambiará el nombre del archivo notas a notas_modified
 ```
 
 #### rm
@@ -42,8 +42,8 @@ mv notas notas_modified    #Cambiará el nombre del archivo notas a notas_modifi
 Elimina archivos o directorios.
 
 ```bash
-rm archivo            #Eliminará el archivo 
-rm -rf directorio     #Eliminará el directorio y los archivos de su interior recursivamente
+rm archivo            # Eliminará el archivo 
+rm -rf directorio     # Eliminará el directorio y los archivos de su interior recursivamente
 ```
 
 #### pushd/popd
@@ -51,11 +51,11 @@ rm -rf directorio     #Eliminará el directorio y los archivos de su interior re
 El comando **pushd** es igual que un cd, nos lleva al directorio pasado como argumento, pero posteriormente utilizando un **popd** podemos volvemos a la ruta anterior (guau).
 
 ```bash
-pwd          #/home/Desktop/carpeta
-pushd /tmp   #nos vamos al directorio /tmp
+pwd          # /home/Desktop/carpeta
+pushd /tmp   # nos vamos al directorio /tmp
 ...
 popd         
-pwd          #/home/Desktop/carpeta
+pwd          # /home/Desktop/carpeta
 ```
 
 #### tar
@@ -124,6 +124,10 @@ cat archivo.txt                 # Muestra el contenido de "archivo.txt"
 cat archivo1.txt archivo2.txt   # Muestra el contenido de "archivo1.txt" y "archivo2.txt" secuencialmente
 ```
 
+Si un archivo empieza por - o algo raro, de forma que cat - o lo q sea no funciona, intentar con ruta abosulta, cat /home/cris/- o ./- o echo $(pwd)/- pe.
+
+Si un archivo tiene espacios por ejemplo, al hacer "cat tiene espacios" lo detecta como dos archivos distintos "tiene" y "espacios" para buscarlo correctamente ponemos el nombre entre comillas: cat "tiene espacios" o cat tiene\ espacios
+
 #### more
 
 Muestra contenido de archivos de forma paginada.
@@ -141,18 +145,18 @@ Busca cadenas en archivos. A continuación varios ejemplos de uso:
 ```bash
 grep "término_busqueda" archivo.txt # Busca "término_busqueda" en "archivo.txt" 
 grep -r "término_busqueda" /ruta    # Busca "término_busqueda" en todos los archivos del directorio especificado
-grep "^1$" -n                       #te devuelve las lineas que contienen empiezan (^) por  el 1 y terminan ($) por el 1 y te diga en qué línea se encontraba
-grep -v cadena                      #elimina las lineas del texto con cadena
-grep -vE "cadena1|cadena2"          #elimina las lineas del texto con cadena1 y cadena2
+grep "^1$" -n                       # te devuelve las lineas que contienen empiezan (^) por  el 1 y terminan ($) por el 1 y te diga en qué línea se encontraba
+grep -v cadena                      # elimina las lineas del texto con cadena
+grep -vE "cadena1|cadena2"          # elimina las lineas del texto con cadena1 y cadena2
 ```
 
 _grep con expresiones regulares:_
 
 ```bash
-grep -oP '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}' #grepea por ips (digitos de longitud de 1 a 3) 
-grep -oP 'plugins/.*'                         #grepea por plugins/ y muestra todo lo que habría después (incluido la cadena plugins/)
-grep -oP 'plugins/\K.*'                       #lo mismo que el de arriba solo que sin incluir la cadena plugins/
-grep -oP 'plugins/\K[^/]+'                    #lo mismo que el de arriba solo que ahora te muestra hasta que encuentra una /  
+grep -oP '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}' # grepea por ips (digitos de longitud de 1 a 3) 
+grep -oP 'plugins/.*'                         # grepea por plugins/ y muestra todo lo que habría después (incluido la cadena plugins/)
+grep -oP 'plugins/\K.*'                       # lo mismo que el de arriba solo que sin incluir la cadena plugins/
+grep -oP 'plugins/\K[^/]+'                    # lo mismo que el de arriba solo que ahora te muestra hasta que encuentra una /  
 ```
 
 #### find
@@ -274,7 +278,7 @@ uniq -u archivo.txt           # Muestra solo las líneas únicas (no duplicadas)
 Lista las cadenas imprimibles de un archivo
 
 ```bash
-strings archivo.txt          #lista las cadenas imprimibles del archivo.txt
+strings archivo.txt          # lista las cadenas imprimibles del archivo.txt
 ```
 
 #### base64
@@ -296,8 +300,8 @@ Se utiliza para traducir o eliminar caracteres en la entrada estándar. Se suele
 echo "texto en minúsculas" | tr 'a-z' 'A-Z' # La salida será: TEXTO EN MINÚSCULAS
 echo "texto con espacios" | tr -d ' '       # La salida será: textoconespacios
 echo "valor1,valor2,valor3" | tr ',' ';'    # La salida será: valor1;valor2;valor3
-tr -d 'cadena'                              #elimina las ocurrencias de cadena en un texto
-tr '[A-Za-z]' '[N-ZA-Mn-za-m]'              #transforma una cadena de texto en rot13 a normal (A+13=N)
+tr -d 'cadena'                              # elimina las ocurrencias de cadena en un texto
+tr '[A-Za-z]' '[N-ZA-Mn-za-m]'              # transforma una cadena de texto en rot13 a normal (A+13=N)
 ```
 
 #### xxd
@@ -337,6 +341,24 @@ Muestra conexiones de red, tablas de enrutamiento, etc.
 ```bash
 netstat -tuln              # Muestra puertos abiertos y servicios escuchando 
 netstat -i                 # Muestra estadísticas de interfaces de red
+```
+
+#### arp-scan&#x20;
+
+Utilizado para escanear dispositivos de una red
+
+```bash
+sudo arp-scan 192.168.1.0/24                   # Escanea la red en la interfaz predeterminada
+sudo arp-scan --interface=eth0 192.168.1.0/24  # Escanea una red en una interfaz específica
+```
+
+#### macchanger
+
+Se utiliza para cambiar la dirección MAC (Media Access Control) de una interfaz de red en sistemas Linux
+
+```bash
+sudo macchanger -m 00:11:22:33:44:55 eth0       # Cambia a una dirección MAC a una específica
+sudo macchanger -r eth0                         # Cambia a una dirección MAC aleatoria
 ```
 
 #### curl
@@ -414,7 +436,7 @@ Es un atajo en la línea de comandos de Bash (y otros shells similares) que se r
 
 ```bash
 ls /var/log 
-cat !$             #Se realizará un cat de /var/log 
+cat !$             # Se realizará un cat de /var/log 
 ```
 
 #### $?
@@ -423,7 +445,7 @@ Es una variable especial que almacena el estado de salida (o código de retorno)
 
 ```bash
 ls /noexiste
-echo $?             #Devolverá un valor de 0
+echo $?             # Devolverá un valor de 0
 ```
 
 #### $0
@@ -432,7 +454,7 @@ Representa el nombre del script que se invocó desde la terminal
 
 ```bash
 # script.sh
-echo "Este es el script: $0"   #El resultado será `Este es el script: ./script.sh`
+echo "Este es el script: $0"   # El resultado será `Este es el script: ./script.sh`
 ```
 
 #### $n
@@ -445,7 +467,7 @@ Contiene el número de argumentos que son recibidos desde la línea de comandos
 
 ```bash
 # script.sh 
-echo "Número de argumentos: $#"   #Si ejecutas `./script.sh arg1 arg2`, el resultado será `Número de argumentos: 2`
+echo "Número de argumentos: $#"   # Si ejecutas `./script.sh arg1 arg2`, el resultado será `Número de argumentos: 2`
 ```
 
 #### $\*
