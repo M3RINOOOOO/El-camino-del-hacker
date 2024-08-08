@@ -12,6 +12,7 @@
 * [Control de flujo](linux/control-de-flujo.md)
 * [Descriptores de archivo](linux/descriptores-de-archivo.md)
 * [Uso de terminal](linux/uso-de-terminal.md)
+* [Usuarios, grupos y permisos](linux/usuarios-grupos-y-permisos.md)
 * [Búsqueda a nivel del sistema](linux/busqueda-a-nivel-del-sistema.md)
 * [Cron](linux/cron.md)
 * [Docker](linux/docker.md)
