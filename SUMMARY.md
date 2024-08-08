@@ -15,6 +15,7 @@
 * [Usuarios, grupos y permisos](linux/usuarios-grupos-y-permisos.md)
 * [Búsqueda a nivel del sistema](linux/busqueda-a-nivel-del-sistema.md)
 * [Cron](linux/cron.md)
+* [Git](linux/git.md)
 * [Docker](linux/docker.md)
 
 ## 🔗 Redes
