@@ -16,6 +16,7 @@
 * [Búsqueda a nivel del sistema](linux/busqueda-a-nivel-del-sistema.md)
 * [Cron](linux/cron.md)
 * [Git](linux/git.md)
+* [Puertos](linux/puertos.md)
 * [Docker](linux/docker.md)
 
 ## 🔗 Redes
