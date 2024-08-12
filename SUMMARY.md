@@ -12,12 +12,15 @@
 * [Control de flujo](linux/control-de-flujo.md)
 * [Descriptores de archivo](linux/descriptores-de-archivo.md)
 * [Uso de terminal](linux/uso-de-terminal.md)
+* [Kitty y sus atajos](linux/kitty-y-sus-atajos.md)
+* [Editores de texto](linux/editores-de-texto.md)
 * [Usuarios, grupos y permisos](linux/usuarios-grupos-y-permisos.md)
 * [Búsqueda a nivel del sistema](linux/busqueda-a-nivel-del-sistema.md)
 * [Cron](linux/cron.md)
 * [Git](linux/git.md)
-* [Puertos](linux/puertos.md)
 * [Docker](linux/docker.md)
+* [Puertos](linux/puertos.md)
+* [SSH](linux/ssh.md)
 
 ## 🔗 Redes
 
