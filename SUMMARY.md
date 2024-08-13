@@ -31,6 +31,14 @@
 
 ## 🌐 Hacking web
 
+* [Reconocimiento (OSINT)](hacking-web/reconocimiento-osint/README.md)
+  * [Nmap](hacking-web/reconocimiento-osint/nmap.md)
+  * [Escaneo de puertos con descriptores de archivo](hacking-web/reconocimiento-osint/escaneo-de-puertos-con-descriptores-de-archivo.md)
+  * [Descubrimiento de hosts en una red local](hacking-web/reconocimiento-osint/descubrimiento-de-hosts-en-una-red-local.md)
+  * [Identificación de tecnologías web](hacking-web/reconocimiento-osint/identificacion-de-tecnologias-web.md)
+  * [Recolección de correos electrónicos](hacking-web/reconocimiento-osint/recoleccion-de-correos-electronicos.md)
+  * [Reconocimiento de imágenes](hacking-web/reconocimiento-osint/reconocimiento-de-imagenes.md)
+  * [Enumeración de subdominios](hacking-web/reconocimiento-osint/enumeracion-de-subdominios.md)
 * [Enumeración y explotación](hacking-web/enumeracion-y-explotacion/README.md)
   * [Enumeración](hacking-web/enumeracion-y-explotacion/enumeracion/README.md)
     * [Burpsuite](hacking-web/enumeracion-y-explotacion/enumeracion/burpsuite.md)
